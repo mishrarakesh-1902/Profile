@@ -1,0 +1,110 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_rtc" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#140a1d"/>
+      <stop offset="0.5" stop-color="#1c102a"/>
+      <stop offset="1" stop-color="#0a0510"/>
+    </linearGradient>
+    <radialGradient id="radial_rtc" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent_rtc" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg_rtc)"/>
+  <rect width="1200" height="750" fill="url(#radial_rtc)"/>
+
+  <!-- Audio Waveform Graphic in backdrop -->
+  <g opacity="0.12" fill="#ec4899">
+    <rect x="150" y="320" width="8" height="110" rx="4"/>
+    <rect x="180" y="280" width="8" height="190" rx="4"/>
+    <rect x="210" y="340" width="8" height="70" rx="4"/>
+    <rect x="240" y="300" width="8" height="150" rx="4"/>
+    <rect x="270" y="260" width="8" height="230" rx="4"/>
+    <rect x="300" y="310" width="8" height="130" rx="4"/>
+    <rect x="330" y="350" width="8" height="50" rx="4"/>
+    <rect x="360" y="290" width="8" height="170" rx="4"/>
+  </g>
+
+  <!-- Glass Card mockup -->
+  <g transform="translate(100, 100)">
+    <rect width="1000" height="550" rx="24" fill="#171026" fill-opacity="0.8" stroke="#2e1a47" stroke-width="2"/>
+    <rect width="1000" height="550" rx="24" fill="none" stroke="url(#accent_rtc)" stroke-opacity="0.45" stroke-width="1.5"/>
+
+    <!-- Header bar -->
+    <rect width="1000" height="60" rx="24" fill="#1e1333" fill-opacity="0.9"/>
+    <circle cx="36" cy="30" r="6" fill="#ef4444"/>
+    <circle cx="56" cy="30" r="6" fill="#f59e0b"/>
+    <circle cx="76" cy="30" r="6" fill="#10b981"/>
+
+    <!-- URL pill -->
+    <rect x="120" y="16" width="360" height="28" rx="14" fill="#2c1d47" fill-opacity="0.8"/>
+    <text x="140" y="35" fill="#c084fc" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="500">apna-video-call.webrtc.live</text>
+
+    <!-- Badge -->
+    <rect x="800" y="18" width="160" height="24" rx="12" fill="#ec4899" fill-opacity="0.25"/>
+    <text x="880" y="34" fill="#f472b6" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">LOW-LATENCY WEBRTC</text>
+
+    <!-- Left column -->
+    <text x="60" y="140" fill="#f472b6" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="3">COMMUNICATION PLATFORM</text>
+    <text x="60" y="200" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">Real-Time Video Call &amp; Chat</text>
+    <text x="60" y="245" fill="#cbd5e1" font-family="-apple-system, system-ui, sans-serif" font-size="16" font-weight="400">Ultra-fast peer-to-peer video conferencing &amp; instant room messaging engine</text>
+    <text x="60" y="272" fill="#cbd5e1" font-family="-apple-system, system-ui, sans-serif" font-size="16" font-weight="400">built with STUN/TURN traversal, adaptive bitrates &amp; multi-peer audio mesh.</text>
+
+    <!-- Tags -->
+    <g transform="translate(60, 310)">
+      <rect width="105" height="32" rx="8" fill="#2a1b42"/>
+      <text x="52" y="21" fill="#e9d5ff" font-family="monospace" font-size="12" text-anchor="middle">WebRTC</text>
+
+      <rect x="117" width="110" height="32" rx="8" fill="#2a1b42"/>
+      <text x="172" y="21" fill="#e9d5ff" font-family="monospace" font-size="12" text-anchor="middle">Socket.IO</text>
+
+      <rect x="239" width="95" height="32" rx="8" fill="#2a1b42"/>
+      <text x="286" y="21" fill="#e9d5ff" font-family="monospace" font-size="12" text-anchor="middle">Node.js</text>
+
+      <rect x="346" width="100" height="32" rx="8" fill="#2a1b42"/>
+      <text x="396" y="21" fill="#e9d5ff" font-family="monospace" font-size="12" text-anchor="middle">Express</text>
+    </g>
+
+    <!-- Right Side Mockup (Video tiles & chat) -->
+    <g transform="translate(560, 95)">
+      <rect width="380" height="400" rx="16" fill="#130c21" stroke="#2e1a47" stroke-width="1.5"/>
+
+      <!-- Video Call Grid (2 main tiles) -->
+      <g transform="translate(20, 20)">
+        <rect width="165" height="180" rx="12" fill="#1f1435" stroke="#3b2361"/>
+        <circle cx="82" cy="80" r="30" fill="#a855f7" fill-opacity="0.3"/>
+        <text x="82" y="88" fill="#f3e8ff" font-family="-apple-system, system-ui, sans-serif" font-size="20" font-weight="700" text-anchor="middle">RK</text>
+        <rect x="12" y="140" width="80" height="24" rx="6" fill="#000000" fill-opacity="0.6"/>
+        <text x="24" y="156" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="11">Rakesh (You)</text>
+      </g>
+
+      <g transform="translate(195, 20)">
+        <rect width="165" height="180" rx="12" fill="#1f1435" stroke="#3b2361"/>
+        <circle cx="82" cy="80" r="30" fill="#ec4899" fill-opacity="0.3"/>
+        <text x="82" y="88" fill="#fdf2f8" font-family="-apple-system, system-ui, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Peer</text>
+        <rect x="12" y="140" width="70" height="24" rx="6" fill="#000000" fill-opacity="0.6"/>
+        <text x="24" y="156" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="11">Online</text>
+      </g>
+
+      <!-- Chat Preview box below -->
+      <g transform="translate(20, 215)">
+        <rect width="340" height="160" rx="12" fill="#1a112c" stroke="#2e1a47"/>
+
+        <rect x="15" y="18" width="220" height="34" rx="8" fill="#2d1b4d"/>
+        <text x="25" y="40" fill="#e9d5ff" font-family="-apple-system, system-ui, sans-serif" font-size="12">Stream connected • 1080p 60fps</text>
+
+        <rect x="100" y="62" width="225" height="34" rx="8" fill="#ec4899" fill-opacity="0.35"/>
+        <text x="115" y="84" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="12">WebRTC low-latency active!</text>
+
+        <!-- Message input simulator -->
+        <rect x="15" y="112" width="310" height="36" rx="8" fill="#120a1f" stroke="#3b2361"/>
+        <text x="30" y="135" fill="#7e639f" font-family="-apple-system, system-ui, sans-serif" font-size="12">Type a message...</text>
+      </g>
+    </g>
+  </g>
+</svg>

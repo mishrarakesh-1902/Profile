@@ -1,0 +1,55 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_wl" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#140f09"/>
+      <stop offset="0.5" stop-color="#24180d"/>
+      <stop offset="1" stop-color="#0a0704"/>
+    </linearGradient>
+    <radialGradient id="radial_wl" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent_wl" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg_wl)"/>
+  <rect width="1200" height="750" fill="url(#radial_wl)"/>
+  <g transform="translate(100, 100)">
+    <rect width="1000" height="550" rx="24" fill="#1c1309" fill-opacity="0.85" stroke="#3d2711" stroke-width="2"/>
+    <rect width="1000" height="550" rx="24" fill="none" stroke="url(#accent_wl)" stroke-opacity="0.5" stroke-width="1.5"/>
+    <rect width="1000" height="60" rx="24" fill="#24180d" fill-opacity="0.9"/>
+    <circle cx="36" cy="30" r="6" fill="#ef4444"/><circle cx="56" cy="30" r="6" fill="#f59e0b"/><circle cx="76" cy="30" r="6" fill="#10b981"/>
+    <rect x="120" y="16" width="370" height="28" rx="14" fill="#382312" fill-opacity="0.8"/>
+    <text x="140" y="35" fill="#fcd34d" font-family="-apple-system, system-ui, sans-serif" font-size="12">majorproject-wanderlust.onrender.com</text>
+    <rect x="800" y="18" width="160" height="24" rx="12" fill="#f59e0b" fill-opacity="0.25"/>
+    <text x="880" y="34" fill="#fbbf24" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">TRAVEL &amp; HOSPITALITY</text>
+    <text x="60" y="140" fill="#fbbf24" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="3">GLOBAL RENTAL PLATFORM</text>
+    <text x="60" y="200" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">Wanderlust Booking</text>
+    <text x="60" y="245" fill="#e2e8f0" font-family="-apple-system, system-ui, sans-serif" font-size="16">Full-scale property rental &amp; boutique hotel booking web application</text>
+    <text x="60" y="272" fill="#e2e8f0" font-family="-apple-system, system-ui, sans-serif" font-size="16">with Mapbox spatial discovery, secure auth &amp; dynamic host dashboards.</text>
+    <g transform="translate(60, 310)">
+      <rect width="105" height="32" rx="8" fill="#331f0f"/><text x="52" y="21" fill="#fde68a" font-family="monospace" font-size="12" text-anchor="middle">Full-Stack</text>
+      <rect x="117" width="95" height="32" rx="8" fill="#331f0f"/><text x="164" y="21" fill="#fde68a" font-family="monospace" font-size="12" text-anchor="middle">Express</text>
+      <rect x="224" width="105" height="32" rx="8" fill="#331f0f"/><text x="276" y="21" fill="#fde68a" font-family="monospace" font-size="12" text-anchor="middle">MongoDB</text>
+      <rect x="341" width="95" height="32" rx="8" fill="#331f0f"/><text x="388" y="21" fill="#fde68a" font-family="monospace" font-size="12" text-anchor="middle">Mapbox</text>
+    </g>
+    <g transform="translate(560, 95)">
+      <rect width="380" height="400" rx="16" fill="#130d07" stroke="#3d2711" stroke-width="1.5"/>
+      <g transform="translate(25, 25)">
+        <rect width="330" height="150" rx="12" fill="#26170a"/>
+        <text x="30" y="50" fill="#fef08a" font-family="-apple-system, system-ui, sans-serif" font-size="20" font-weight="700">Villa Serenity • Bali</text>
+        <text x="30" y="80" fill="#d97706" font-family="monospace" font-size="14">★★★★★ 4.98 (124 reviews)</text>
+        <text x="30" y="118" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="22" font-weight="800">$240 <tspan font-size="13" font-weight="400" fill="#9ca3af">/ night</tspan></text>
+      </g>
+      <g transform="translate(25, 195)">
+        <rect width="330" height="170" rx="12" fill="#1f1308" stroke="#3d2711"/>
+        <text x="25" y="40" fill="#f59e0b" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="700">EXPERIENCE HIGHLIGHTS</text>
+        <text x="25" y="75" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="18" font-weight="700">Instant Booking Confirmation</text>
+        <text x="25" y="105" fill="#9ca3af" font-family="-apple-system, system-ui, sans-serif" font-size="13">End-to-end checkout &amp; automated reviews</text>
+        <text x="25" y="138" fill="#34d399" font-family="monospace" font-size="13">✓ Mapbox Geocoded Coordinates</text>
+      </g>
+    </g>
+  </g>
+</svg>

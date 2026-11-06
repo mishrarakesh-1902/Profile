@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" width="500" height="750">
+  <defs>
+    <linearGradient id="bg-grad-clf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#071b2f" />
+      <stop offset="45%" stop-color="#061220" />
+      <stop offset="100%" stop-color="#03080e" />
+    </linearGradient>
+    <radialGradient id="glow-clf" cx="50%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#0ea5e9" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="blue-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="40%" stop-color="#0284c7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="badge-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="750" rx="28" fill="url(#bg-grad-clf)" />
+  <rect width="500" height="750" rx="28" fill="url(#glow-clf)" />
+  <rect width="498" height="748" x="1" y="1" rx="27" fill="none" stroke="url(#blue-border)" stroke-width="1.5" />
+
+  <!-- Inner Frame -->
+  <rect x="24" y="24" width="452" height="702" rx="20" fill="none" stroke="rgba(56,189,248,0.18)" stroke-width="1" stroke-dasharray="6 4" />
+
+  <!-- Corner Accents -->
+  <path d="M 36 50 L 36 36 L 50 36" fill="none" stroke="#38bdf8" stroke-width="2" />
+  <path d="M 464 50 L 464 36 L 450 36" fill="none" stroke="#38bdf8" stroke-width="2" />
+  <path d="M 36 700 L 36 714 L 50 714" fill="none" stroke="#38bdf8" stroke-width="2" />
+  <path d="M 464 700 L 464 714 L 450 714" fill="none" stroke="#38bdf8" stroke-width="2" />
+
+  <!-- Top Badge / Header -->
+  <g transform="translate(250, 68)">
+    <rect x="-115" y="-14" width="230" height="28" rx="14" fill="rgba(14,165,233,0.12)" stroke="rgba(56,189,248,0.3)" stroke-width="1" />
+    <text text-anchor="middle" y="5" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="2.5">AWS FOUNDATIONAL</text>
+  </g>
+
+  <!-- Center Emblem (Shield / Hexagon) -->
+  <g transform="translate(250, 185)">
+    <!-- Outer Glow Circle -->
+    <circle r="72" fill="none" stroke="rgba(56,189,248,0.2)" stroke-width="1" stroke-dasharray="4 4" />
+    <circle r="60" fill="#08182b" stroke="url(#badge-blue)" stroke-width="2" />
+    
+    <!-- Cloud & Globe Icon -->
+    <path d="M -24 6 A 14 14 0 0 1 -10 -16 A 22 22 0 0 1 18 -12 A 16 16 0 0 1 24 6 Z" fill="rgba(56,189,248,0.2)" stroke="#38bdf8" stroke-width="2" />
+    <line x1="-24" y1="6" x2="24" y2="6" stroke="#38bdf8" stroke-width="2" />
+    
+    <!-- Star Check -->
+    <circle cx="0" cy="18" r="8" fill="#38bdf8" />
+    <path d="M -3 18 L -1 20 L 4 16" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Title Section -->
+  <text x="250" y="300" text-anchor="middle" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">Cloud Practitioner</text>
+  <text x="250" y="328" text-anchor="middle" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" letter-spacing="1.5">CLF-C02 (2026)</text>
+
+  <!-- Divider -->
+  <line x1="160" y1="356" x2="340" y2="356" stroke="rgba(56,189,248,0.3)" stroke-width="1" />
+
+  <!-- Recipient Info -->
+  <text x="250" y="392" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="2">AWARDED TO</text>
+  <text x="250" y="424" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700">Rakesh Kumar</text>
+  <text x="250" y="452" text-anchor="middle" fill="#ff9900" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Issuer: Amazon Web Services</text>
+
+  <!-- Competencies Box -->
+  <g transform="translate(60, 480)">
+    <rect width="380" height="150" rx="14" fill="rgba(15,23,42,0.7)" stroke="rgba(56,189,248,0.15)" stroke-width="1" />
+    <text x="20" y="32" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">CORE DOMAIN PROFICIENCY</text>
+    
+    <g transform="translate(20, 52)">
+      <rect width="165" height="26" rx="6" fill="rgba(56,189,248,0.1)" />
+      <text x="82" y="17" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Cloud Concepts &amp; Security</text>
+
+      <rect x="175" width="165" height="26" rx="6" fill="rgba(56,189,248,0.1)" />
+      <text x="257" y="17" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Global AWS Infrastructure</text>
+    </g>
+
+    <g transform="translate(20, 86)">
+      <rect width="155" height="26" rx="6" fill="rgba(56,189,248,0.1)" />
+      <text x="77" y="17" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Shared Responsibility</text>
+
+      <rect x="165" width="175" height="26" rx="6" fill="rgba(56,189,248,0.1)" />
+      <text x="252" y="17" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Pricing, Billing &amp; Support</text>
+    </g>
+
+    <text x="190" y="136" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="10">CREDENTIAL ID: AWS-CLF-2026-RK</text>
+  </g>
+
+  <!-- Bottom Verification Footer -->
+  <g transform="translate(250, 678)">
+    <rect x="-140" y="-16" width="280" height="32" rx="16" fill="rgba(14,165,233,0.15)" stroke="rgba(56,189,248,0.35)" stroke-width="1" />
+    <circle cx="-116" cy="0" r="5" fill="#10b981" />
+    <text x="-98" y="4" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">VERIFIED CLOUD SPECIALIST</text>
+  </g>
+</svg>

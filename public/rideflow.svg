@@ -1,0 +1,94 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_rf" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0f1d"/>
+      <stop offset="0.5" stop-color="#141829"/>
+      <stop offset="1" stop-color="#080b14"/>
+    </linearGradient>
+    <radialGradient id="radial_rf" cx="60%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent_rf" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg_rf)"/>
+  <rect width="1200" height="750" fill="url(#radial_rf)"/>
+
+  <!-- Geometric Route Lines -->
+  <g opacity="0.15" stroke="#6366f1" stroke-width="1.5">
+    <path d="M 100 200 C 300 100, 500 400, 700 250 S 1000 500, 1100 350" fill="none"/>
+    <path d="M 50 400 C 250 300, 450 600, 650 450 S 950 700, 1150 550" fill="none"/>
+  </g>
+
+  <!-- Glass Card mockup -->
+  <g transform="translate(100, 100)">
+    <rect width="1000" height="550" rx="24" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-width="2"/>
+    <rect width="1000" height="550" rx="24" fill="none" stroke="url(#accent_rf)" stroke-opacity="0.45" stroke-width="1.5"/>
+
+    <!-- Header bar -->
+    <rect width="1000" height="60" rx="24" fill="#131d36" fill-opacity="0.9"/>
+    <circle cx="36" cy="30" r="6" fill="#ef4444"/>
+    <circle cx="56" cy="30" r="6" fill="#f59e0b"/>
+    <circle cx="76" cy="30" r="6" fill="#10b981"/>
+
+    <!-- URL pill -->
+    <rect x="120" y="16" width="340" height="28" rx="14" fill="#1e293b" fill-opacity="0.8"/>
+    <text x="140" y="35" fill="#94a3b8" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="500">rideflow-dispatch.preview</text>
+
+    <!-- Badge -->
+    <rect x="800" y="18" width="160" height="24" rx="12" fill="#6366f1" fill-opacity="0.25"/>
+    <text x="880" y="34" fill="#818cf8" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">REAL-TIME MOBILITY</text>
+
+    <!-- Left column -->
+    <text x="60" y="140" fill="#818cf8" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="3">URBAN TRANSIT &amp; FLEET ROUTING</text>
+    <text x="60" y="200" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">Rideflow</text>
+    <text x="60" y="245" fill="#94a3b8" font-family="-apple-system, system-ui, sans-serif" font-size="16" font-weight="400">High-performance on-demand ride hailing &amp; real-time vehicle dispatch engine,</text>
+    <text x="60" y="272" fill="#94a3b8" font-family="-apple-system, system-ui, sans-serif" font-size="16" font-weight="400">featuring live GPS geospatial tracking, dynamic surge pricing &amp; driver pairing.</text>
+
+    <!-- Tags -->
+    <g transform="translate(60, 310)">
+      <rect width="115" height="32" rx="8" fill="#1e293b"/>
+      <text x="57" y="21" fill="#cbd5e1" font-family="monospace" font-size="12" text-anchor="middle">TypeScript</text>
+
+      <rect x="127" width="105" height="32" rx="8" fill="#1e293b"/>
+      <text x="179" y="21" fill="#cbd5e1" font-family="monospace" font-size="12" text-anchor="middle">Socket.IO</text>
+
+      <rect x="244" width="115" height="32" rx="8" fill="#1e293b"/>
+      <text x="301" y="21" fill="#cbd5e1" font-family="monospace" font-size="12" text-anchor="middle">Geospatial</text>
+
+      <rect x="371" width="95" height="32" rx="8" fill="#1e293b"/>
+      <text x="418" y="21" fill="#cbd5e1" font-family="monospace" font-size="12" text-anchor="middle">React.js</text>
+    </g>
+
+    <!-- Right Side Map Visualization Mockup -->
+    <g transform="translate(560, 100)">
+      <rect width="380" height="390" rx="16" fill="#0b1120" stroke="#1e293b" stroke-width="1.5"/>
+
+      <!-- Map route illustration -->
+      <path d="M 60 320 C 120 280, 160 200, 220 180 S 300 120, 320 80" fill="none" stroke="#6366f1" stroke-width="4" stroke-dasharray="8 6"/>
+
+      <!-- Markers -->
+      <circle cx="60" cy="320" r="12" fill="#ef4444" fill-opacity="0.3"/>
+      <circle cx="60" cy="320" r="6" fill="#ef4444"/>
+
+      <circle cx="320" cy="80" r="14" fill="#10b981" fill-opacity="0.3"/>
+      <circle cx="320" cy="80" r="7" fill="#10b981"/>
+
+      <!-- Floating trip pill -->
+      <rect x="40" y="40" width="220" height="60" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155"/>
+      <text x="56" y="65" fill="#f8fafc" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600">Active Ride Matching</text>
+      <text x="56" y="86" fill="#818cf8" font-family="monospace" font-size="11">ETA: 3 mins • 1.4 km</text>
+
+      <!-- Bottom telemetry -->
+      <g transform="translate(30, 290)">
+        <rect width="320" height="70" rx="12" fill="#111827" stroke="#1f2937"/>
+        <text x="20" y="32" fill="#9ca3af" font-family="-apple-system, system-ui, sans-serif" font-size="10" font-weight="600">LIVE WEBSOCKET SYNC</text>
+        <text x="20" y="55" fill="#34d399" font-family="monospace" font-size="16" font-weight="700">CONNECTED • 60 FPS</text>
+      </g>
+    </g>
+  </g>
+</svg>
